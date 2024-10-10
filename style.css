@@ -1,0 +1,569 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "sans-serif";
+}
+body {
+  background-color: #fef5f8;
+}
+/* header */
+.NavBar {
+  background-color: #fe6440;
+}
+.navtop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.LogoFood {
+  display: flex;
+  align-items: center;
+}
+.LogoFood h1 {
+  font-size: 50px;
+  font-family: monospace;
+  color: yellow;
+  letter-spacing: 1.75px;
+}
+.topnavbar {
+  display: flex;
+  align-items: center;
+}
+.topbarmenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+li.topbarmenubar {
+  font-size: 20px;
+  font-weight: 500;
+}
+li.topbarmenubar a {
+  text-decoration: none;
+  color: black;
+}
+.topnavbarbtn {
+  display: flex;
+  align-items: center;
+}
+
+.Navbarbtn {
+  border: none;
+  padding-right: 30px;
+  border-radius: 20px;
+  font-size: 18px;
+  background-color: transparent;
+  font-weight: 500;
+}
+.Navbarbtn1 {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Navbar End */
+.heromaincontainer {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.heromain {
+  width: 84%;
+  display: flex;
+  gap: 30px;
+}
+#search-wrapper {
+  display: flex;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  max-width: 400px;
+  box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.273);
+}
+#search {
+  border: none;
+  width: 350px;
+  font-size: 18px;
+  padding: 21px;
+}
+#search::placeholder {
+  font-size: 18px;
+  color: black;
+}
+#search:focus {
+  outline: none;
+}
+.search-icon {
+  margin: 10px;
+  color: rgba(0, 0, 0, 0.564);
+}
+#search-button {
+  border: none;
+  cursor: pointer;
+  background-color: #fe6440;
+  font-size: 24px;
+  padding: 0px 21px;
+}
+.heroleft {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.heroright {
+  width: 50%;
+}
+
+.imagesection {
+  width: 100%;
+}
+
+.imagesection img {
+  width: 100%;
+}
+
+.heroheading h2 {
+  color: green;
+  font-size: 48px;
+  letter-spacing: 1.75px;
+}
+.herobutton button {
+  padding: 10px 30px;
+  background-color: #fe6440;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 2px 1px 5px 1px #00000046;
+}
+.heroparagraph p {
+  width: 80%;
+}
+.deeliverymain {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  /* width: ; */
+}
+.deliverypart {
+  width: 84%;
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+}
+.delivery {
+  display: flex;
+  gap: 30px;
+  width: 37%;
+  overflow: hidden;
+}
+
+.deliverydesc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.MenuHero {
+  display: flex;
+  justify-content: center;
+}
+
+.Menucontainer {
+  display: flex;
+  flex-direction: column;
+  /* gap: 15px; */
+  width: 84%;
+}
+
+.menuTitle span {
+  font-size: 27px;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+}
+.menuTitle {
+  padding: 8px 0 12px;
+}
+.menuheading h4 {
+  font-size: 21px;
+}
+.menudetail {
+  width: 27%;
+}
+.menucarddesc {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+/* .menucarddescparagraph{
+  width: 50%;
+} */
+.menucardmain {
+  /* width: 100%; */
+  display: flex;
+  padding: 35px 0;
+  justify-content: space-between;
+}
+
+.menucardcantainer {
+  width: 21%;
+  padding: 10px 10px 0;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 0px rgba(230, 226, 226, 0.775);
+}
+.menucardimg img {
+  width: 100%;
+  border-radius: 10px;
+}
+button.menucardbtn {
+  padding: 15px;
+  font-size: 24px;
+  background-color: #fe6440;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.menucarddetails {
+  padding: 30px 0;
+}
+.menucardtitle h4 {
+  font-size: 21px;
+  margin-bottom: 5px;
+}
+.ServiceHero {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.Servicecontainer {
+  width: 84%;
+  display: flex;
+}
+.serviceheading h4 {
+  font-size: 21px;
+}
+.serviceTitle {
+  padding: 8px 0 12px;
+}
+.serviceTitle span {
+  font-size: 27px;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+}
+.serviceleft {
+  width: 60%;
+}
+
+.serviceright {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.servicesdetail {
+  width: 49%;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.servicesdetail {
+  letter-spacing: 0.25px;
+}
+.OfferMainHero {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 40px;
+}
+.OfferMain {
+  width: 84%;
+  display: flex;
+  align-items: center;
+  background-color: #ffb700;
+  border-radius: 15px;
+}
+.OfferLeft {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.Offerside {
+  width: 68%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.OfferRight {
+  width: 50%;
+}
+.Offerheading h5 {
+  font-size: 21px;
+}
+.OfferTag span {
+  font-size: 27px;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  color: #0d4848;
+}
+.offerbutton button {
+  padding: 10px 40px;
+  background-color: #ffffff;
+  border: none;
+  font-size: 18px;
+  color: #000000;
+  border-radius: 10px;
+  box-shadow: 2px 1px 5px 1px #00000046;
+}
+.Offerheading h5 {
+  font-size: 48px;
+  letter-spacing: 1.75px;
+}
+.offerimages {
+  width: 100%;
+}
+.offerimages img {
+  width: 100%;
+}
+.OurTeamHeromain {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 40px;
+}
+.OurTeamHero {
+  width: 84%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.OurTeamTop {
+  width: 60%;
+}
+.OurTeamTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.OurHeading h5 {
+  font-size: 27px;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+}
+.OurTeamParagraph {
+  margin: 10px;
+}
+.OurTeamParagraph p {
+  font-size: 18px;
+  letter-spacing: 0.75px;
+  text-align: justify;
+}
+.OurTeamCard {
+  width: 28%;
+}
+.OurTeamImage img {
+  width: 100%;
+  border-radius: 10px;
+}
+.OurTeamDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 20px 0;
+}
+.OurTeambottom {
+  margin-top: 40px;
+}
+.OurTeamCardContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 23px;
+}
+.OurTeamName span {
+  font-size: 18px;
+  font-weight: 500;
+}
+.OurTeambottom span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.OurClientMainHeader {
+  display: flex;
+  justify-content: center;
+}
+.OurClientMain {
+  width: 84%;
+}
+.OurClientHeadig {
+  padding-bottom: 10px;
+}
+.OurClientHeadig h5 {
+  font-size: 27px;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+}
+.OurClientSpan span {
+  font-size: 18px;
+}
+.OurClientCard {
+  display: flex;
+  justify-content: space-between;
+}
+.OurClientPara span {
+  font-size: 18px;
+}
+.OurClientMore span {
+  font-weight: 500;
+}
+.TestimonialCardMainHero {
+  width: 30%;
+  padding: 30px 10px 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 0px rgba(230, 226, 226, 0.775);
+}
+.TestimonialImage img {
+  width: 80%;
+  border-radius: 10px;
+}
+.TestimonialMainhero {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+.TestimonialMain {
+  width: 84%;
+  display: flex;
+  justify-content: space-between;
+}
+.TestimonialcardHeader {
+  display: flex;
+}
+.Testimonialspan h6 {
+  font-size: 16px;
+}
+.TestimonialTitle span {
+  font-size: 12px;
+  color: #42464e;
+}
+.Testimonialnamedesc {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.starsection {
+  display: flex;
+  height: 38px;
+  align-items: center;
+  gap: 10px;
+}
+
+hr.TestimonialHrsection {
+  height: 5px;
+  margin: 10px 0;
+  background: #9197a8;
+  border: none;
+  border-radius: 15px;
+}
+
+.TestimonialReview i {
+  color: #ffb700;
+}
+.TestimonialIcon {
+  display: flex;
+  justify-content: flex-end;
+  gap: 60px;
+}
+.TestimonialIcon {
+  margin-top: 20px;
+}
+.TestimonialIcon i {
+  color: #9197a8;
+}
+.TestimonialReviewDesc p {
+  color: #42464e;
+}
+.Testimonialheadingreview h6 {
+  font-size: 27px;
+  letter-spacing: 1.75px;
+}
+.reviewsection {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 0;
+}
+.TestimonialReviewType {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.Testimonialheadingreview h6 {
+  text-align: center;
+}
+.Footerbarsection {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+.footerbar {
+  width: 84%;
+  display: flex;
+  justify-content: space-between;
+}
+ul.soicaliconlist {
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+  margin-top: 10px;
+}
+li.socaiiconfooter {
+  font-size: 24px;
+}
+.footer1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+ul.pomotion {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style-type: none;
+}
+.footerheading h6 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+ul.sevices {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style-type: none;
+}
+ul.Security {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style-type: none;
+}
+.footer4 {
+  display: flex;
+  align-items: center;
+}
